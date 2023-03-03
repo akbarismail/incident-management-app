@@ -53,23 +53,25 @@ const Report = () => {
                     className='border border-my-gray p-3 rounded-lg w-full mt-2'
                   />
                 </div>
+              </div>
+              <div>
+                <div className='my-4'>
+                  <label htmlFor='detail' className='font-medium text-base'>
+                    Detail your issue
+                  </label>
+                  <textarea
+                    name='detail'
+                    id='detail'
+                    rows={8}
+                    className='border border-my-gray p-3 rounded-lg w-full mt-2 mb-2'
+                  ></textarea>
+                </div>
                 <button
                   type='submit'
-                  className='bg-my-green lg:justify-end lg:w-1/4 py-3 text-white font-bold text-base cursor-pointer rounded-lg hover:bg-my-green-light'
+                  className='bg-my-green w-full lg:w-1/4 py-3 text-white font-bold text-base cursor-pointer rounded-lg hover:bg-my-green-light'
                 >
                   Send
                 </button>
-              </div>
-              <div className='my-4'>
-                <label htmlFor='detail' className='font-medium text-base'>
-                  Detail your issue
-                </label>
-                <textarea
-                  name='detail'
-                  id='detail'
-                  rows={14}
-                  className='border border-my-gray p-3 rounded-lg w-full mt-2'
-                ></textarea>
               </div>
             </div>
           </form>

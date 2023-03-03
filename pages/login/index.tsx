@@ -12,7 +12,7 @@ const Login = () => {
             Incident Management App
           </h1>
           <form>
-            <div className='block my-4'>
+            <div className='my-4'>
               <label htmlFor='email' className='font-medium text-base'>
                 Email
               </label>
@@ -24,7 +24,7 @@ const Login = () => {
                 className='border border-my-gray p-3 rounded-lg w-full mt-2'
               />
             </div>
-            <div className='block my-4'>
+            <div className='my-4'>
               <label htmlFor='password' className='font-medium text-base'>
                 Password
               </label>
@@ -36,7 +36,7 @@ const Login = () => {
                 className='border border-my-gray p-3 rounded-lg w-full mt-2'
               />
             </div>
-            <div className='block my-4'>
+            <div className='my-4'>
               <Link
                 href={'/forgot-password'}
                 className='font-bold text-sm text-my-green flex justify-end hover:text-my-green-light'
@@ -44,7 +44,7 @@ const Login = () => {
                 Forgot password
               </Link>
             </div>
-            <div className='block mt-4'>
+            <div className='mt-4'>
               <input
                 type='submit'
                 value='Sign In'
