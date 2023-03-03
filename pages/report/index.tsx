@@ -38,8 +38,9 @@ const Report = () => {
                   <select
                     name='select-issue'
                     id='select-issue'
-                    className='border border-my-gray p-3 rounded-lg w-1/4 mt-2'
+                    className='border border-my-gray p-3 rounded-lg lg:w-1/4 mt-2'
                   >
+                    <option value=''>Select</option>
                     <option value='aplikasi'>Aplikasi</option>
                     <option value='server'>Server</option>
                   </select>
@@ -52,6 +53,12 @@ const Report = () => {
                     className='border border-my-gray p-3 rounded-lg w-full mt-2'
                   />
                 </div>
+                <button
+                  type='submit'
+                  className='bg-my-green lg:justify-end lg:w-1/4 py-3 text-white font-bold text-base cursor-pointer rounded-lg hover:bg-my-green-light'
+                >
+                  Send
+                </button>
               </div>
               <div className='my-4'>
                 <label htmlFor='detail' className='font-medium text-base'>
@@ -60,7 +67,7 @@ const Report = () => {
                 <textarea
                   name='detail'
                   id='detail'
-                  rows={11}
+                  rows={14}
                   className='border border-my-gray p-3 rounded-lg w-full mt-2'
                 ></textarea>
               </div>
